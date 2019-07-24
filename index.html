@@ -2,3 +2,12 @@
 
 <script src='https://api.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.css' rel='stylesheet' />
+
+<div id='map' style='width: 400px; height: 300px; border: 1px'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoia2V2aW5mcmllcyIsImEiOiJjanloaTd0MTEwYzF2M2VyejE4dm0xNGdxIn0.WEgs076DFjwFw3jJhLhN6Q';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11'
+});
+</script>
